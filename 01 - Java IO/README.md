@@ -11,3 +11,13 @@ In other words, for each competition or problem, you'll need to read input (from
 I can think of three main ways of reading input, they each have their advantages and weaknesses so let’s have a look at each one of them .
 
 <h3>Scanner</h3>
+This is the easiest way , Scanner is part of the java.util package, so it’s a class from the standard library, it has multiple constructors mainly <i>Scanner(InputStream)</i> and <i>Scanner(FileInputStream)</i> . the Scanner class is great for small inputs as it’s fast to type and provides a lot of methods to read various types of data, and takes care of tokenizing a string .
+
+```
+
+Scanner in = new Scanner(System.in);
+int a = in.nextInt();
+double r = in.nextDouble();
+in.close();
+
+```
