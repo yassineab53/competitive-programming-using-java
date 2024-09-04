@@ -44,3 +44,11 @@ in.close();
 ```
 
 BufferedReader’s weakness is the parsing part, as you saw in the example i need to tokenize and split the string manually, then parse it to the appropriate type which is not practical in a 2H contest .  😦
+
+<h3>FastReader</h3>
+This is a costume class you can create (and name it however you like), it uses the best of both worlds : The great <i>Scanner</i> api , and the speed of <i>BufferedReader</i> .
+
+(you can find the complete code in the FastReaderExample.java file) .
+It uses a class <i>StringTokenizer</i> to split the line read by the internal <i>BufferedReader</i> into tokens and return the next token each time <i>next()</i> is called . then you can do what ever you like with that string , to make it more similar to the <i>Scanner</i> api just define <i>nextInt()</i>, <i>nextLong()</i> ….
+
+This class is great in contests like ICPC because it’s fast and not that hard to code from scratch .

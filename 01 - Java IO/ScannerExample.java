@@ -15,7 +15,7 @@ public class ScannerExample {
         double b = in.nextDouble();
         long c = in.nextLong();
         String d = in.next();
-        String line = in.nextLine();
+        String line = in.nextLine(); // reads the rest of the line after the last token and returns it as a string 
 
         /*
         * next(): Reads the next token until a delimiter (whitespace) is encountered.
