@@ -13,6 +13,7 @@ I can think of three main ways of reading input, they each have their advantages
 <h3>Scanner</h3>
 This is the easiest way , Scanner is part of the java.util package, so it’s a class from the standard library, it has multiple constructors mainly <i>Scanner(InputStream)</i> and <i>Scanner(FileInputStream)</i> . the Scanner class is great for small inputs as it’s fast to type and provides a lot of methods to read various types of data, and takes care of tokenizing a string .
 
+<br>
 ```
 
 Scanner in = new Scanner(System.in);
