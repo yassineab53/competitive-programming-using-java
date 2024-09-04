@@ -1,4 +1,4 @@
-<h1 style : "color:red";>Competitive Programming with Java : IO</h1>
+<h1>Competitive Programming with Java : IO</h1>
 Hello,
 
 In competitive programming, problems typically follow this format:
