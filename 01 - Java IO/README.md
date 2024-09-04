@@ -26,7 +26,7 @@ in.close();
 on the other hand Scanner’s only weakness is it’s Damn slow, the bigger the input the bigger the impact . with the right amount of input, your algorithm might even not get executed and you will see the dreadful time limit exceeded .
 
 <b>Why Scanner is slow  ?</b>
-Scanner uses a Regex matching algorithm to tokenize the read string, <i>sc.nextInt()</i>; is going to try and match [0-9]+ per example plus it has a small buffer size around 1024 bytes .
+Scanner uses a Regex matching algorithm to tokenize the read string, <i>sc.nextInt()</i>; is going to try and match <i>[0-9]+</i> per example plus it has a small buffer size around 1024 bytes .
 
 
 <h3>BufferedReader :</h3>
